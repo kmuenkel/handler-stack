@@ -1,2 +1,2 @@
 # handler-stack
-Trait for applying middleware support to any class
+Easily apply middleware support to any class

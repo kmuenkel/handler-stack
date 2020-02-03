@@ -1,0 +1,39 @@
+{
+  "name": "kmuenkel/handler-stack",
+  "description": "Easily apply middleware support to any class",
+  "time": "2020-02-02 10:30:00",
+  "authors": [
+    {
+      "name": "Kevin Muenkel",
+      "email": "kevin_tm@yahoo.com"
+    }
+  ],
+  "keywords": [
+    "middleware",
+    "chain of responsibility",
+    "trait",
+    "handler stack"
+  ],
+  "type": "library",
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "HandlerStack\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "HandlerStack\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
